@@ -33,7 +33,7 @@ int main(int argc, char* argv[]) {
             close_input_buffer(input_buffer);
             exit(EXIT_SUCCESS);
         } else{
-            printf("Unrecognize command '%s'.\n", input_buffer->buffer);
+            printf("Unrecognized command '%s'.\n", input_buffer->buffer);
         }
     }
 }
